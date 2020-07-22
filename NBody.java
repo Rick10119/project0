@@ -25,6 +25,7 @@ public class NBody {
         
 		/* looking for Bodies */
         int BodyNumber = in.readInt();
+        // to move to the correct position
         in.readDouble();
         Body [] bodies = new Body [BodyNumber];
         // some temperary viables to instantiate
