@@ -112,4 +112,9 @@ public class Body {
         this.xxPos += dt * this.xxVel;
         this.yyPos += dt * this.yyVel;
     }
+
+    /** to draw picture of it in its position */
+    public void draw() {
+        StdDraw.picture(xxPos, yyPos, "images/" + imgFileName);
+    }
 }
